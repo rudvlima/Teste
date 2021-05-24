@@ -30,6 +30,11 @@ LOGIN
 
 - Username: adm
 - Password: adm
+- JSON 
+{
+  "username": "admin",
+  "password": "admin",
+}
 
 <img src="/img/login.gif"></img>
 
@@ -42,6 +47,16 @@ Para realizar a autenticação é necessário inserir o token gerado no login ap
 CIDADES
 
 - Cadastrar nova cidade: .../api/Cidade/CadastrarNovaCidade
+- JSON: 
+{
+  "id": 0,
+  "nome": "string",
+  "habitantes": 0,
+  "fronteira": [
+    "string"
+  ]
+}
+
 
 <img src="/img/novaCidade.gif"></img>
 
@@ -56,14 +71,20 @@ CIDADES
 <img src="/img/buscaCidadeNome.gif"></img>
 
 - Soma de habitantes: .../api/Cidade/RetornarSomaHabitantesPorCidades
+- JSON: 
+[
+  "string", "string"
+]
 
 <img src="/img/habitantes.gif"></img>
 
 - Atualizar cidade: .../api/Cidade/AlterarCidade/{id}
+- Informar o ID da cidade no parâmetro {id}
 
 <img src="/img/alterarCidade.gif"></img>
 
 - Fronteiras de uma cidade: .../api/Cidade/RetornarFronteirasPorCidade/{nome}
+- Informar o nome da cidade no lugar do paramêtro {nome}
 
 <img src="/img/fronteiras.gif"></img>
 
@@ -71,6 +92,11 @@ ALGORITIMOS
 Os algoritimos são compilados na mesma API
 
 - Primeiro índice duplicado: .../algoritimos/DuplicadosNaLista
+- JSON:
+
+[
+ 0
+]
 
 <img src="/img/duplicados.gif"></img>
 
