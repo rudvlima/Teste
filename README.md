@@ -17,6 +17,9 @@ RODANDO O PROJETO
 - Digite o comando no terminal: dotnet run
 - Verifique em qual porta o projeto está rodando no host "Now listening on"
 
+- OBS: Como o banco de dados é criado em memória, ao compilar o banco já é povoado programaticamente. Não sendo necessário rodar scripts para realizar os teste
+
+
 REALIZANDO OS TESTES:
 Pode utilizar o POSTMAN ou o SWAGGER( exemplo ---> https://localhost:5001/swagger)
 
