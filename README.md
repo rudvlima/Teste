@@ -1,4 +1,4 @@
-# TESTE ADMISSIONAL KNEWIN
+# PROJETO KNEWIN
 
 
 FERRAMENTAS, LINGUAGENS E FRAMEWORKS UTILIZADOS:
@@ -23,9 +23,10 @@ Pode utilizar o POSTMAN ou o SWAGGER( exemplo ---> https://localhost:5001/swagge
 
 LOGIN
 - Fazer Login com a rota .../api/login
-- IMPORTANTE: Realizado o login será criado um TOKEN para autenticar outras rotas, guarde esse TOKEN.
-User: adm
-Password: adm
+- IMPORTANTE: Realizado o login será criado um TOKEN para autenticar outras rotas, guarde esse TOKEN
+
+- Username: adm
+- Password: adm
 
 <img src="/img/login.gif"></img>
 
@@ -73,3 +74,6 @@ Os algoritimos são compilados na mesma API
 - Palíndromo: .../algoritimos/Palindromo/{palavra}
 
 <img src="/img/palindromo.gif"></img>
+
+
+- Por opção, decidi não fazer o último exercíco que consiste em traçar uma rota entre duas cidades.
