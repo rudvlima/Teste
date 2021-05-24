@@ -66,7 +66,7 @@ CIDADES
 
 - Busca cidade por ID e por Nome: .../api/Cidade/RetornarCidadePorNome/{nome} E /api/Cidade/RetornarCidadePorId/{id}
 
-<img src="/img/buscaCidadeID.gif"></img>
+<img src="/img/buscaCidadeId.gif"></img>
 
 <img src="/img/buscaCidadeNome.gif"></img>
 
